@@ -1,0 +1,402 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: normal;
+}
+
+h1 {
+    font-size: 40px;
+    line-height: 1.5em;
+    letter-spacing: -.2px;
+    color: #9B9B9B;
+}
+
+h1 strong {
+    color: teal;
+}
+
+h2 {
+    color: teal;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+
+.logo {
+    margin-top: 10px;
+}
+
+.hero {
+    height: 400px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-image {
+    object-fit: cover;
+}
+
+.portfolio {
+    background: #fafafa;
+    padding: 20px;
+}
+
+.project {
+    border: 1px solid gray;
+    border-radius: 20px;
+    margin-bottom: 15px;
+    padding: 20px;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url('./imagenes/experiencia.png');
+    background-color: white;
+    background-size: 450px 450px;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    display: flex;
+    align-items: center;
+}
+
+.project-title {
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.project-course, .project-date, .project-url {
+    margin: 10px 0;
+}
+
+.project-details {
+    width: 500px;
+}
+
+.project-description {
+    font-size: 20px;
+}
+
+.project strong {
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.project-imageContainer {
+    width: 500px;
+}
+
+.header {
+    background-color: white;
+    color: teal;
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    align-items: inherit;
+}
+
+.menu {
+    height: inherit;
+}
+
+.header ol {
+    display: flex;
+    height: inherit;
+}
+
+.header ol li {
+    height: inherit;
+}
+
+.header a {
+    color: teal;
+    text-decoration: none;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+}
+
+ol, ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+figure {
+    margin: 0;
+}
+
+.footer {
+    background-color: #9B9B9B;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-imageContainer {
+    vertical-align: middle;
+}
+
+.experience-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.experience-list-title {
+    margin-left: 15px;
+}
+
+.experience,
+.experiencePlatzi,
+.experienceQA {
+    margin: 10px;
+    width: 480px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    overflow: hidden;
+    background: #f4fbff;
+}
+
+.experience img {
+    width: 500px;
+    height: 300px;
+    object-fit: inherit;
+}
+
+.experiencePlatzi img {
+    width: 500px;
+    height: 300px;
+    object-fit: inherit;
+}
+
+.experienceQA img {
+    width: 500px;
+    height: 300px;
+    object-fit: inherit;
+}
+
+.experience-details {
+    margin: 20px 40px;
+    margin-top: -40px;
+    background-color: white;
+    position: relative;
+    padding: 20px;
+    text-align: center;
+}
+
+.experience-description {
+    text-align: left;
+}
+
+.experience-url {
+    border: 1px solid teal;
+    padding: 5px 20px;
+    text-decoration: none;
+    color: teal;
+    border-radius: 5px;
+}
+
+.experiencePlatzi-details {
+    margin: 20px;
+    margin: 20px 40px;
+    margin-top: -40px;
+    background-color: white;
+    position: relative;
+    padding: 20px;
+    text-align: center;
+}
+
+.experiencePlatzi-description {
+    text-align: left;
+}
+
+.experiencePlatzi-url {
+    border: 1px solid teal;
+    padding: 5px 20px;
+    text-decoration: none;
+    color: teal;
+    border-radius: 5px;
+}
+
+.experienceQA-details {
+    margin: 20px;
+    margin: 20px 40px;
+    margin-top: -40px;
+    background-color: white;
+    position: relative;
+    padding: 20px;
+    text-align: center;
+}
+
+.experienceQA-description {
+    text-align: left;
+}
+
+.experienceQA-url {
+    border: 1px solid teal;
+    padding: 5px 20px;
+    text-decoration: none;
+    color: teal;
+    border-radius: 5px;
+}
+
+.contact {
+    background-color: teal;
+    color: #9B9B9B;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.social-link {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 0 10px;
+    background-size: 50px 50px;
+}
+
+.social-link.twitter {
+    background-image: url('./imagenes/twitter.svg');
+}
+
+.social-link.facebook {
+    background-image: url('./imagenes/facebook.svg');
+}
+
+.social-link.github {
+    background-image: url('./imagenes/github.svg');
+}
+
+.social-link.instagram {
+    background-image: url('./imagenes/instagram.svg');
+}
+
+.form-email input {
+    border-color: gray;
+    border-style: solid;
+    padding: 10px 20px 10px 25px;
+    background-image: url('./imagenes/envelope.svg');
+    background-size: 15px 15px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 5px;
+}
+
+.form-email button {
+    display: block;
+    background: transparent;
+    color: white;
+    padding: 10px 0;
+    border-radius: 5px;
+    width: 100px;
+    margin-top: 10px;
+}
+
+.form-email h3 {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.travels {
+    background: #fafafa;
+    padding: 20px;
+}
+
+.travels-main {
+    border: 1px solid gray;
+    border-radius: 20px;
+    margin-bottom: 15px;
+    padding: 20px;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url('./imagenes/sumapaz3.jpg');
+    background-color: white;
+    background-size: 400px 325px;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    display: flex;
+    align-items: center;
+}
+
+.travels-title{
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.travels-course, .travels-date {
+    margin: 10px 0;
+}
+
+.travels-details {
+    width: 500px;
+}
+
+.travels-description {
+    font-size: 20px;
+}
+
+.travels-main strong {
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.travelsQuindio {
+    border: 1px solid gray;
+    border-radius: 20px;
+    margin-bottom: 15px;
+    padding: 20px;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url('./imagenes/cocora.jpg');
+    background-color: white;
+    background-size: 400px 450px;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    display: flex;
+    align-items: center;
+}
+
+.travelsQuindio-title{
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.travelsQuindio-course, .travelsQuindio-date {
+    margin: 10px 0;
+}
+
+.travelsQuindio-details {
+    width: 500px;
+}
+
+.travelsQuindio-description {
+    font-size: 20px;
+}
+
+.travelsQuindio strong {
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    height: inherit;
+    flex-wrap: inherit;
+}
